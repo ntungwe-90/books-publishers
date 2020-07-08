@@ -1,10 +1,7 @@
 import React from 'react'
 
 
-class Publisher extends React.Component {
-    constructor(props) {
-      super(props);      
-    }    
+class Publisher extends React.Component { 
   
     render() {
       return (
