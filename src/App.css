@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-top: 100px;
+  
 }
 
 .App-logo {
@@ -22,6 +24,24 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+* {
+  background-color: #61dafb; 
+}
+.bks{
+  background-color:white;
+  margin-bottom: 10px;
+  height: 25px;
+}
+.pub{
+  background-color:white;
+  margin-bottom: 10px;
+  height: 25px;
+}
+.sub{
+  background-color:blue;
+  margin-bottom: 10px;
+  height: 25px;
 }
 
 .App-link {

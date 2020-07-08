@@ -3,14 +3,14 @@ import React from 'react'
 
 class Publisher extends React.Component {
     constructor(props) {
-      super(props);
-    }
+      super(props);      
+    }    
   
     render() {
       return (
         <div>
-          <h1></h1>
-          <h3></h3>
+          <h1>{this.props.title}</h1>
+          <h3>{this.props.Books}</h3>
         </div>
       );
     }
